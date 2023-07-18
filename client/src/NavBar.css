@@ -1,0 +1,221 @@
+/* .sidenav a {
+  display: block;
+  padding: 16px;
+  color: #000;
+  text-decoration: none;
+  grid-column-start: auto;
+}
+
+.sidenav a {
+  display: block;
+  padding: 16px;
+  color: #000;
+  text-decoration: none;
+  grid-column-start: auto;
+}
+.sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding-top: 60px;
+  background-color: #fff; /* Replace with your desired background color 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 1;
+}
+
+.sidenav.open {
+  background-color: #054584; /* Replace with your desired background color 
+  visibility: visible;
+}
+
+.sidenav.closed {
+  opacity: 0;
+}
+.sidenav-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.login {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: white;
+  padding: 10px 20px;
+  color: #6699cc;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.signUp {
+  position: absolute;
+  top: 10px;
+  right: 128px;
+  background-color: white;
+  color: #6699cc;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+header {
+  background-color: #6699cc;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+header h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 10px;
+  grid-row-start: auto;
+}
+
+.sidenav a:hover {
+  background-color: #ddd; /* replace with your desired hover background color 
+  color: #333; /* replace with your desired hover text color 
+} */
+
+header {
+  display: flex;
+  /* justify-content: space-between; 
+  align-items: center; */
+  background-color: #ffd452;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  background-color: #006a8f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* margin-right: 10px; */
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffd452;
+  color: #006a8f;
+}
+
+.login {
+  margin-right: 10px;
+}
+
+.sidenav-toggle {
+  background-color: #fff;
+  color: #006a8f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 2000px) {
+  .login,
+  .signUp {
+    display: none;
+  }
+
+  .sidenav-toggle {
+    display: block;
+  }
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -200px;
+  background-color: #00467f;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav.open {
+  left: 0;
+}
+
+.sidenav.closed {
+  left: -200px;
+}
+
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidenav li {
+  margin: 10px 0;
+}
+
+.sidenav a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sidenav a:hover {
+  background-color: #fff;
+  color: #00467f;
+}
+.bottom-items {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ffd452;
+}
+
+.line {
+  height: 1px;
+  background-color: #ffd452;
+  margin: 1rem 0;
+}
+
+.sidenav-toggle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-image: url('hamm.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}

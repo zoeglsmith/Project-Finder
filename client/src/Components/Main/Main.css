@@ -1,0 +1,82 @@
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #00467f;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 95%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #00467f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h3 {
+  color: #00467f;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #00467f;
+  text-align: left;
+}
+.labels label {
+  display: inline-block;
+  margin-right: 20px; /* add some space between the labels */
+  text-align: center;
+  color: #ffd452;
+}
+.labels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: #00467f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+/* Main.css */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px
+}

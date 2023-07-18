@@ -1,0 +1,33 @@
+.about-page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.about-page .box {
+  flex: 1 1 100%; 
+  margin-right: 0; 
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #cccccc;
+}
+
+.about-page .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-page .container .box {
+  flex: 1 1 45%;
+  margin-right: 5px;
+}
+
+.about-page .container .box.inline {
+  flex: 1 1;
+  display: inline-block;
+  margin-right: 5px;
+  border: none;
+}
