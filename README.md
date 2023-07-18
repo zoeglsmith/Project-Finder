@@ -1,4 +1,6 @@
-# Project Finder(Has bugs and currently improving project**ON HOLD**)
+# Project Finder
+
+**Has bugs, still in improvement and currently ON HOLD)**
 
 Project Finder is a user-friendly web application designed for students and staff at the University of Otago. It simplifies the process of applying for research positions and academic projects while fostering collaboration between users.
 
